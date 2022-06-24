@@ -1,0 +1,31 @@
+  body {
+    display: flex;
+    margin: auto;
+    margin-top: 200px;
+    padding: 0;
+    font-family: "Roboto";
+    font-size: large;
+    font-weight: 500;
+    width: 370px;
+    justify-content: center;
+  }
+  
+  caption {
+    margin-bottom: 10px;
+    font-size: larger;
+    font-weight: 600;
+  }
+  
+  table, th, td {
+    padding: 10px;
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+  td {
+    font-weight: 400;
+  }
+
+  th {
+    background-color: #c2f7d8;
+  }
