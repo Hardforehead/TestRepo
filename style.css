@@ -1,12 +1,13 @@
   body {
     display: flex;
+    flex-direction: column;
     margin: auto;
     margin-top: 200px;
     padding: 0;
     font-family: "Roboto";
     font-size: large;
     font-weight: 500;
-    width: 350px;
+    width: 260px;
     justify-content: center;
   }
   
@@ -26,6 +27,14 @@
     font-weight: 400;
   }
 
+  .td {
+    width: 60px;
+  }
+
   th {
     background-color: #c2f7d8;
+  }
+
+  .table {
+    margin-top: -11px;
   }
